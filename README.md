@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[mgmediaweb.github.io/portfolio](https://mgmediaweb.github.io/try-bootstrap)
+[mgmediaweb.github.io/try-bootstrap](https://mgmediaweb.github.io/try-bootstrap)
 
 ## Getting Started
 

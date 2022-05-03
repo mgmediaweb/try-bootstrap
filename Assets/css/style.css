@@ -1,0 +1,23 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+section {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+}
+
+#cover {
+    background: url(../images/image-geometry_1.png) no-repeat bottom right;
+    height: 100vh;
+}
+
+.cover-info {
+    height: 100vh;
+}

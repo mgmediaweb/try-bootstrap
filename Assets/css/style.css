@@ -7,9 +7,12 @@ h1 {
   font-family: "Playfair Display", serif;
 }
 
-li {
+ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
+
 section {
   box-sizing: border-box;
   padding: 20px;
@@ -21,26 +24,32 @@ section {
   height: 100vh;
 }
 
-.project-1 {
-  background: url(../images/Rectangle-21.png);
-}
-.margin-200 {
-  margin-top: 200px;
+.badge {
+  background-color: #98dede;
+  color: #1a2236;
+  font-size: 0.8rem;
 }
 
 .card-body {
-  background-color: #1a2236;
+  background-color: rgba(26, 34, 54, 0.95);
 }
 
 .card-title {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 3rem;
 }
-.badge {
-  background-color: #98dede;
-  color: #1a2236;
-  font-size: 20px;
+
+.cover-info {
+  height: 100vh;
+}
+
+.margin-200 {
+  margin-top: 11rem;
+}
+
+.project-1 {
+  background: url(../images/Rectangle-21.png);
 }
 
 .project-text {
@@ -49,6 +58,7 @@ section {
 
 .project-text h2 {
   font-family: "Playfair Display", serif;
-  font-size: 110px;
+  font-size: 6rem;
   transform: rotate(-90deg);
+  user-select: none;
 }

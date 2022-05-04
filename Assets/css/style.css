@@ -1,0 +1,237 @@
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 5rem;
+  line-height: 4.5rem;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer {
+  background-color: #1a2236;
+  box-sizing: border-box;
+  color: white;
+  padding: 0 20px;
+  width: 100%;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer .get-cv {
+  color: #92dcdc;
+  text-decoration: none;
+}
+
+footer .get-cv:hover {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  box-sizing: border-box;
+  padding: 20px 0;
+  width: 100%;
+}
+
+#cover {
+  background-image: url(../images/about_mobile.png), url(../images/cover_bg_mobile.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom left;
+  background-size: auto auto, 100% auto;
+  height: 100vh;
+}
+
+.badge {
+  background-color: #98dede;
+  color: #1a2236;
+  font-size: 0.8rem;
+}
+
+.card-body {
+  background-color: rgba(26, 34, 54, 0.95);
+}
+
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+
+.cover-info {
+  display: flex;
+  height: 100vh;
+}
+
+.margin-200 {
+  margin-top: 11rem;
+}
+
+.navbar {
+  background: none;
+}
+
+.navbar-nav {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.project-1 {
+  background: url(../images/Rectangle-21.png);
+}
+
+.project-text h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3.5rem;
+  user-select: none;
+}
+
+.about {
+  margin: 10px 0;
+}
+
+.about ul {
+  list-style-type: disc;
+}
+
+.language {
+  background: url(../images/Language.png) no-repeat bottom right;
+  background-color: #1c528a;
+}
+
+.frameworks {
+  background: url(../images/Frameworks.png) no-repeat bottom right;
+  background-color: #e2505c;
+}
+
+.skills {
+  background: url(../images/ic_skills.svg) no-repeat bottom right;
+  background-color: #febf52;
+}
+
+.dot-img-skills {
+  background: url(../images/image_dots_with_teal.svg) no-repeat bottom right;
+}
+
+.about-me {
+  padding: 0 20px;
+}
+
+.about-description h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 5rem;
+}
+
+.about-description p {
+  font-size: 14px;
+}
+
+.contact-me {
+  box-sizing: border-box;
+  background-color: #f9f9fa;
+  background-image: url(../images/about_mobile.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 100px 20px;
+}
+
+.contact-me h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+}
+
+.contact-me p {
+  font-size: 0.8rem;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX DESKTOP VERSION XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 7rem;
+    line-height: 6.5rem;
+    margin-bottom: 20px;
+  }
+
+  .about {
+    margin: 0;
+  }
+
+  .about-me {
+    padding: 80px 20px;
+  }
+
+  .about-description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+
+  .card-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .contact-me {
+    box-sizing: border-box;
+    background-color: #f9f9fa;
+    background-image: url(../images/about_bg_left.png), url(../images/about_bg_right.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+    padding: 100px 0;
+  }
+
+  .contact-me h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 6rem;
+  }
+
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+
+  .navbar-nav {
+    background: none;
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .project-text {
+    background: url(../images/image_dots.png) no-repeat right top;
+  }
+
+  .project-text h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 6rem;
+    transform: rotate(-90deg);
+    user-select: none;
+  }
+
+  #cover {
+    background-image: url(../images/cover_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: auto 100%;
+    height: 80vh;
+    margin-top: 80px;
+  }
+}

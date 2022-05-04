@@ -62,3 +62,42 @@ section {
   transform: rotate(-90deg);
   user-select: none;
 }
+
+.about ul {
+  list-style-type: disc;
+}
+
+.language {
+  background: url(../images/Language.png) no-repeat bottom right;
+  background-color: #1c528a;
+}
+.frameworks {
+  background: url(../images/Frameworks.png) no-repeat bottom right;
+  background-color: #e2505c;
+}
+.skills {
+  background: url(../images/ic_skills.svg) no-repeat bottom right;
+  background-color: #febf52;
+}
+
+.dot-img-skills {
+  background: url(../images/image_dots_with_teal.svg) no-repeat bottom right;
+}
+
+.about-description h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 110px;
+}
+
+.about-description p {
+  font-size: 14px;
+}
+
+.contact-me h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 110px;
+}
+
+.contact-me p {
+  font-size: 14px;
+}

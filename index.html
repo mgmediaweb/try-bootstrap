@@ -1,126 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Try Bootstrap</title>
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-            crossorigin="anonymous"
-        />
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"
-        ></script>
-        <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-            crossorigin="anonymous"
-        />    
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap"
-            rel="stylesheet"
-        />
-        <link href="Assets/css/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <header>
-            <nav class="navbar py-3 navbar-expand-lg navbar-light bg-white">
-                <div class="container">
-                    <a class="navbar-brand" href="#"></a>
-                    <button class="navbar-toggler" type="button" 
-                        data-bs-toggle="collapse" 
-                        data-bs-target="#navbarNav" 
-                        aria-controls="navbarNav" 
-                        aria-expanded="false" 
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item mx-3">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item mx-3">
-                                <a class="nav-link" href="#portfolio">Portfolio</a>
-                            </li>
-                            <li class="nav-item mx-3">
-                                <a class="nav-link" href="#about">About</a>
-                            </li>
-                            <li class="nav-item mx-3">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <section id="cover">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-6 d-flex flex-column justify-content-center cover-info">
-                            <h1>Darik + Gonzalo</h1>
-                            <p>
-                                Hello! I am a software developer! I can help you build a
-                                product, feature or website. Taka a look of my works. If you
-                                like what you see and have a project you need coded, don't
-                                hesitate and contact me.
-                            </p>
-                            <a
-                                class="btn btn-dark mt-3 align-self-start"
-                                href="#"
-                                role="button">
-                                Start Collaboration
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Try Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="Assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar py-3 navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="cover">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-6 d-flex flex-column justify-content-center cover-info"
+            >
+              <h1>Darik + Gonzalo</h1>
+              <p>
+                Hello! I am a software developer! I can help you build a
+                product, feature or website. Taka a look of my works. If you
+                like what you see and have a project you need coded, don't
+                hesitate and contact me.
+              </p>
+              <a
+                class="btn btn-dark mt-3 align-self-start"
+                href="#"
+                role="button"
+              >
+                Start Collaboration
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <section id="portfolio" class="projects">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4 d-flex align-item-start project-text">
-                            <h2>Projects</h2>
-                        </div>
-                        <div class="col-8">
-                            <div class="card align-self-stretch border-0 project-1">
-                                <div class="card-body margin-200">
-                                    <div class="card-title text-white">
-                                    Project Name Goes here
-                                    </div>
-                                    <div class="badges mb-5">
-                                        <ul class="d-flex gap-2">
-                                            <li>
-                                                <div class="badge rounded-0">HTML/CSS</div>
-                                            </li>
-                                            <li>
-                                                <div class="badge rounded-0">Ruby on Rails</div>
-                                            </li>
-                                            <li>
-                                                <div class="badge rounded-0">JavaScript</div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <a
-                                        class="btn btn-light fw-bold mb-3 rounded-0"
-                                        href="#"
-                                        role="button"
-                                    >See this Project<i class="fas fa-arrow-right mx-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <section id="portfolio" class="projects">
+        <div class="container">
+          <div class="row">
+            <div class="col-4 d-flex align-item-start project-text">
+              <h2>Projects</h2>
+            </div>
+            <div class="col-8">
+              <div class="card align-self-stretch border-0 project-1">
+                <div class="card-body margin-200">
+                  <div class="card-title text-white">
+                    Project Name Goes here
+                  </div>
+                  <div class="badges mb-5">
+                    <ul class="d-flex gap-2">
+                      <li>
+                        <div class="badge rounded-0">HTML/CSS</div>
+                      </li>
+                      <li>
+                        <div class="badge rounded-0">Ruby on Rails</div>
+                      </li>
+                      <li>
+                        <div class="badge rounded-0">JavaScript</div>
+                      </li>
+                    </ul>
+                  </div>
+                  <a
+                    class="btn btn-light fw-bold mb-3 rounded-0"
+                    href="#"
+                    role="button"
+                    >See this Project<i class="fas fa-arrow-right mx-2"></i
+                  ></a>
                 </div>
-            </section>
-        </main>
-    </body>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-me mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="row">
+                <div class="col-6 about language p-5 text-white">
+                  <h3>Language</h3>
+                  <ul>
+                    <li>Javascript(ES5/ES6)</li>
+                    <li>Ruby</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ul>
+                </div>
+                <div class="col-6 about frameworks p-5 text-white">
+                  <h3>Frameworks</h3>
+                  <ul>
+                    <li>Bootstrap</li>
+                    <li>Ruby on Rails</li>
+                    <li>RSpec</li>
+                    <li>Capibara</li>
+                    <li>Selenium</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 about skills p-5 text-white">
+                  <h3>Skills</h3>
+                  <ul>
+                    <li>CodeKit</li>
+                    <li>Codepen</li>
+                    <li>Github</li>
+                    <li>GitLab</li>
+                    <li>Terminal</li>
+                  </ul>
+                </div>
+                <div class="col-6 dot-img-skills"></div>
+              </div>
+            </div>
+            <div class="col-6 about-description mt-5">
+              <h2>About</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ea eiusmod
+              </p>
+              <a
+                class="btn btn-dark border-0 rounded-0 mt-3 align-self-start px-5 py-3"
+                href="#"
+                role="button"
+                >Get my CV <i class="fa-solid fa-down-to-bracket"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <section class="contact-me mt-5">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-5">
+              <h2>Get Started</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <div class="container contact"></div>
+            </div>
+            <div class="col"></div>
+          </div>
+        </section>
+      </footer>
+    </main>
+  </body>
 </html>

@@ -41,6 +41,12 @@ Thanks for watching
 - LinkedIn: [gonzalo-medina-g](https://www.linkedin.com/in/gonzalo-medina-g/)
 - Twitter: [@GonzoMedinaDev](https://twitter.com/GonzoMedinaDev)
 
+👤 **Darik Mohammed**
+
+- GitHub: [@githubhandle](https://github.com/darikmohammed)
+- Twitter: [@twitterhandle](https://twitter.com/r_darik)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/darik-mohammed-57352120b)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

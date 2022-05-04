@@ -30,7 +30,7 @@ footer li {
 }
 
 footer .get-cv {
-  color: #92DCDC;
+  color: #92dcdc;
   text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ section {
 }
 
 .navbar {
-  background-color: none;
+  background: none;
 }
 
 .navbar-nav {
@@ -110,10 +110,12 @@ section {
   background: url(../images/Language.png) no-repeat bottom right;
   background-color: #1c528a;
 }
+
 .frameworks {
   background: url(../images/Frameworks.png) no-repeat bottom right;
   background-color: #e2505c;
 }
+
 .skills {
   background: url(../images/ic_skills.svg) no-repeat bottom right;
   background-color: #febf52;
@@ -138,7 +140,7 @@ section {
 
 .contact-me {
   box-sizing: border-box;
-  background-color: #F9F9FA;
+  background-color: #f9f9fa;
   background-image: url(../images/about_mobile.png);
   background-repeat: no-repeat;
   background-position: top left;
@@ -161,7 +163,6 @@ section {
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
 @media screen and (min-width: 768px) {
-
   h1 {
     font-family: "Playfair Display", serif;
     font-size: 7rem;
@@ -175,7 +176,7 @@ section {
 
   .about-me {
     padding: 80px 20px;
-  }  
+  }
 
   .about-description {
     display: flex;
@@ -183,16 +184,16 @@ section {
     flex-direction: column;
     padding-left: 40px;
   }
-  
+
   .card-title {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 3rem;
-  }  
+  }
 
   .contact-me {
     box-sizing: border-box;
-    background-color: #F9F9FA;
+    background-color: #f9f9fa;
     background-image: url(../images/about_bg_left.png), url(../images/about_bg_right.png);
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
@@ -206,24 +207,24 @@ section {
 
   .navbar {
     background-color: rgba(255, 255, 255, 0.85);
-  }  
+  }
 
   .navbar-nav {
     background: none;
     margin: 0 auto;
     width: auto;
-  }  
+  }
 
   .project-text {
     background: url(../images/image_dots.png) no-repeat right top;
-  }  
+  }
 
   .project-text h2 {
     font-family: "Playfair Display", serif;
     font-size: 6rem;
     transform: rotate(-90deg);
     user-select: none;
-  }  
+  }
 
   #cover {
     background-image: url(../images/cover_bg.png);
@@ -232,6 +233,5 @@ section {
     background-size: auto 100%;
     height: 80vh;
     margin-top: 80px;
-  }  
-
+  }
 }
